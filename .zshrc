@@ -149,7 +149,7 @@ alias wboxx='uw && ssh -X unnamed@nixi'
 source <(openclaw completion --shell zsh) 2>/dev/null
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.dotfiles/zsh/.p10k.zsh ]] || source ~/.dotfiles/zsh/.p10k.zsh
+[[ ! -f ~/.dotfiles/zsh-config/.p10k.zsh ]] || source ~/.dotfiles/zsh-config/.p10k.zsh
 source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
